@@ -9,5 +9,6 @@ foreach($item in $zip.items())
 {
   $target = $targets[$item.Name]
   Write-Output "Extracting $($item.Name) to $target"
+  $d = mkdir $target -Force
   $shell.Namespace($target).copyhere($item)
 }
