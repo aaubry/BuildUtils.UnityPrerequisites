@@ -8,5 +8,6 @@ $zip = $shell.NameSpace("$PSScriptRoot\package.zip")
 foreach($item in $zip.items())
 {
   $target = $targets[$item.Name]
+  Write-Output "Extracting $($item.Name) to $target"
   $shell.Namespace($target).copyhere($item)
 }
