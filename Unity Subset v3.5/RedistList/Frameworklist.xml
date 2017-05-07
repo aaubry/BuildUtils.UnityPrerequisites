@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FileList Redist="Unity_3_5_Subset" Name="Unity 3.5 .net Subset Base Class Libraries">
+<!--
+  <File AssemblyName="Boo.Lang.Compiler" Version="2.0.9.5" PublicKeyToken="32c39770e9a21a67" Culture="neutral" ProcessorArchitecture="MSIL" InGac="false" />
+  <File AssemblyName="Boo.Lang" Version="2.0.9.5" PublicKeyToken="32c39770e9a21a67" Culture="neutral" ProcessorArchitecture="MSIL" InGac="false" />
+  <File AssemblyName="Boo.Lang.Extensions" Version="2.0.9.5" PublicKeyToken="" Culture="neutral" ProcessorArchitecture="MSIL" InGac="false" />
+  <File AssemblyName="Boo.Lang.Parser" Version="2.0.9.5" PublicKeyToken="32c39770e9a21a67" Culture="neutral" ProcessorArchitecture="MSIL" InGac="false" />
+  <File AssemblyName="Boo.Lang.PatternMatching" Version="2.0.9.5" PublicKeyToken="" Culture="neutral" ProcessorArchitecture="MSIL" InGac="false" />
+  <File AssemblyName="Boo.Lang.Useful" Version="2.0.9.5" PublicKeyToken="" Culture="neutral" ProcessorArchitecture="MSIL" InGac="false" />
+  <File AssemblyName="I18N.CJK" Version="2.0.5.0" PublicKeyToken="0738eb9f132ed756" Culture="neutral" ProcessorArchitecture="MSIL" InGac="false" />
+  <File AssemblyName="I18N" Version="2.0.5.0" PublicKeyToken="0738eb9f132ed756" Culture="neutral" ProcessorArchitecture="MSIL" InGac="false" />
+  <File AssemblyName="I18N.MidEast" Version="2.0.5.0" PublicKeyToken="0738eb9f132ed756" Culture="neutral" ProcessorArchitecture="MSIL" InGac="false" />
+  <File AssemblyName="I18N.Other" Version="2.0.5.0" PublicKeyToken="0738eb9f132ed756" Culture="neutral" ProcessorArchitecture="MSIL" InGac="false" />
+  <File AssemblyName="I18N.Rare" Version="2.0.5.0" PublicKeyToken="0738eb9f132ed756" Culture="neutral" ProcessorArchitecture="MSIL" InGac="false" />
+  <File AssemblyName="I18N.West" Version="2.0.5.0" PublicKeyToken="0738eb9f132ed756" Culture="neutral" ProcessorArchitecture="MSIL" InGac="false" />
+  <File AssemblyName="Mono.Cairo" Version="2.0.5.0" PublicKeyToken="0738eb9f132ed756" Culture="neutral" ProcessorArchitecture="MSIL" InGac="false" />
+  <File AssemblyName="Mono.Cecil" Version="0.6.9.0" PublicKeyToken="0738eb9f132ed756" Culture="neutral" ProcessorArchitecture="MSIL" InGac="false" />
+  <File AssemblyName="Mono.CompilerServices.SymbolWriter" Version="2.0.5.0" PublicKeyToken="0738eb9f132ed756" Culture="neutral" ProcessorArchitecture="MSIL" InGac="false" />
+  <File AssemblyName="Mono.Data.Sqlite" Version="2.0.5.0" PublicKeyToken="0738eb9f132ed756" Culture="neutral" ProcessorArchitecture="MSIL" InGac="false" />
+  <File AssemblyName="Mono.Data.Tds" Version="2.0.5.0" PublicKeyToken="0738eb9f132ed756" Culture="neutral" ProcessorArchitecture="MSIL" InGac="false" />
+  <File AssemblyName="Mono.Security" Version="2.0.5.0" PublicKeyToken="0738eb9f132ed756" Culture="neutral" ProcessorArchitecture="MSIL" InGac="false" />
+  <File AssemblyName="mscorlib" Version="2.0.5.0" PublicKeyToken="7cec85d7bea7798e" Culture="neutral" ProcessorArchitecture="MSIL" InGac="false" />
+  <File AssemblyName="System.Core" Version="2.0.5.0" PublicKeyToken="7cec85d7bea7798e" Culture="neutral" ProcessorArchitecture="MSIL" InGac="false" />
+  <File AssemblyName="System.Data" Version="2.0.5.0" PublicKeyToken="b77a5c561934e089" Culture="neutral" ProcessorArchitecture="MSIL" InGac="false" />
+  <File AssemblyName="System" Version="2.0.5.0" PublicKeyToken="7cec85d7bea7798e" Culture="neutral" ProcessorArchitecture="MSIL" InGac="false" />
+  <File AssemblyName="System.Json" Version="2.0.5.0" PublicKeyToken="7cec85d7bea7798e" Culture="neutral" ProcessorArchitecture="MSIL" InGac="false" />
+  <File AssemblyName="System.Runtime.Serialization" Version="2.0.5.0" PublicKeyToken="7cec85d7bea7798e" Culture="neutral" ProcessorArchitecture="MSIL" InGac="false" />
+  <File AssemblyName="System.ServiceModel" Version="2.0.5.0" PublicKeyToken="31bf3856ad364e35" Culture="neutral" ProcessorArchitecture="MSIL" InGac="false" />
+  <File AssemblyName="System.ServiceModel.Web" Version="2.0.5.0" PublicKeyToken="7cec85d7bea7798e" Culture="neutral" ProcessorArchitecture="MSIL" InGac="false" />
+  <File AssemblyName="System.Transactions" Version="2.0.5.0" PublicKeyToken="b77a5c561934e089" Culture="neutral" ProcessorArchitecture="MSIL" InGac="false" />
+  <File AssemblyName="System.Web.Services" Version="2.0.5.0" PublicKeyToken="b03f5f7f11d50a3a" Culture="neutral" ProcessorArchitecture="MSIL" InGac="false" />
+  <File AssemblyName="System.Xml" Version="2.0.5.0" PublicKeyToken="7cec85d7bea7798e" Culture="neutral" ProcessorArchitecture="MSIL" InGac="false" />
+  <File AssemblyName="System.Xml.Linq" Version="2.0.5.0" PublicKeyToken="31bf3856ad364e35" Culture="neutral" ProcessorArchitecture="MSIL" InGac="false" />
+  <File AssemblyName="UnityEditor" Version="0.0.0.0" PublicKeyToken="" Culture="neutral" ProcessorArchitecture="MSIL" InGac="false" />
+  <File AssemblyName="UnityEngine" Version="0.0.0.0" PublicKeyToken="" Culture="neutral" ProcessorArchitecture="MSIL" InGac="false" />
+  <File AssemblyName="UnityScript" Version="1.0.0.0" PublicKeyToken="" Culture="neutral" ProcessorArchitecture="MSIL" InGac="false" />
+  <File AssemblyName="UnityScript.Lang" Version="1.0.0.0" PublicKeyToken="" Culture="neutral" ProcessorArchitecture="MSIL" InGac="false" />
+-->
+</FileList>
